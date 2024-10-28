@@ -7,7 +7,10 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
+    extend: {   
+      fontFamily:{
+        tenor_Sans:['var(--font-tenor-sans)']
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
