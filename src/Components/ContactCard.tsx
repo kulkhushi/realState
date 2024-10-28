@@ -16,7 +16,7 @@ const ContactCard = ({cardType}:{cardType?:string}) => {
        fill
         sizes="15vw"
           className=" object-cover z-0 rounded-full"
-        />
+        /> 
        </div>
         <div>
           <h2 className={`font-bold ${IsWhite} font-tenor_Sans`}>RE/MAX</h2>
